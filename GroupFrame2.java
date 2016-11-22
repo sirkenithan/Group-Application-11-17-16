@@ -45,8 +45,8 @@ public class GroupFrame2 extends JFrame{
 }
 
 
-class driver {
-	public static void main (String[]args) {
-		GroupFrame2 a = new GroupFrame2();
-	}
-}
+//class driver {
+//	public static void main (String[]args) {
+//		GroupFrame2 a = new GroupFrame2();
+//	}
+//}
