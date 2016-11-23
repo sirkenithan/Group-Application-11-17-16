@@ -6,12 +6,20 @@ import javax.swing.*;
 class GroupFrame1 extends JFrame implements ActionListener {
 
    JPanel superPane = new JPanel(new FlowLayout());
+   GroupFrame2 f2 = new GroupFrame2();
+   GraphButton f3 = new GraphButton();
+   GroupFrame4 f4 = new GroupFrame4();
    
    GroupFrame1() {
       setSize(200,80);
       this.init();
       setVisible(true);
       this.add (superPane, BorderLayout.CENTER);
+      
+      f2.setVisible(false);
+      f3.setVisible(false);
+      f4.setVisible(false);
+      
       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    }
 
@@ -43,15 +51,18 @@ class GroupFrame1 extends JFrame implements ActionListener {
    
    
    public void actionPerformed(ActionEvent e) {
+         f2.setVisible(false);
+         f3.setVisible(false);
+         f4.setVisible(false);
          switch(Integer.parseInt(e.getActionCommand())){
             case 1:
-                    new GroupFrame2();
+                    f2.setVisible(true);
                   break;
             case 2:
-                    new GraphButtons();
+                    f3.setVisible(true);
                   break;
             case 3:
-                    new GroupFrame4();
+                    f4.setVisible(true);
                   break;
          }
    }

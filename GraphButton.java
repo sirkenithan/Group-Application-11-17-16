@@ -33,7 +33,7 @@ public class GraphButton extends JFrame implements ActionListener
         Center.addActionListener(this);
 
         setSize(400, 400);
-        setVisible(true);
+        setVisible(false);
     }
 
     @Override
@@ -122,6 +122,6 @@ public class GraphButton extends JFrame implements ActionListener
     public static void main(String[] args)
     {
         GraphButton myButton = new GraphButton();
-        myButton.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        myButton.setDefaultCloseOperation(HIDE_ON_CLOSE);
     }
 }

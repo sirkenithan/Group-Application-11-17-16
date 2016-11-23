@@ -9,10 +9,12 @@ public class GroupFrame2 extends JFrame{
 	int radOrange = 80;
 	int radBluesm = (int)radOrange/2;
 	int radBluelg = (int)3*radOrange/2;
-	
+
+   	
 	GroupFrame2() {
 		setSize(w, h);
-		setVisible(true);
+      this.setDefaultCloseOperation(HIDE_ON_CLOSE);
+		setVisible(false);
 	}
 
 	public void paint (Graphics g) {

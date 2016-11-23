@@ -20,7 +20,7 @@ class GroupFrame4 extends JFrame implements ActionListener {
    
    GroupFrame4() {
       setSize(690,480);
-      setVisible(true);
+      setVisible(false);
       
       list.setPreferredSize(new Dimension(100,490));
       
@@ -52,7 +52,7 @@ class GroupFrame4 extends JFrame implements ActionListener {
    
    public static void main(String[] args) {
       GroupFrame4 myFrame = new GroupFrame4();
-      myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      myFrame.setDefaultCloseOperation(HIDE_ON_CLOSE);
       
    }
 
