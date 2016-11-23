@@ -48,7 +48,7 @@ class GroupFrame1 extends JFrame implements ActionListener {
                     new GroupFrame2();
                   break;
             case 2:
-                    new GroupButtons();
+                    new GraphButtons();
                   break;
             case 3:
                     new GroupFrame4();
