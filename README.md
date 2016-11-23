@@ -1,6 +1,6 @@
 # Group-Application-11-17-16
 
-In order to run this application, run the main method in the Driver class.  the hi.txt is merely there for moral support.
+In order to run this application, run the main method in the Driver class.  The hi.txt is merely there for moral support.  The GroupButtons file is unused and I cannot figure out how to remove files from a directory.
 
 Driver and Frame 1 by Gregory Garrison,
 Frame 2 by Kean Lee,
